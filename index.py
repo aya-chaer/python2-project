@@ -1,3 +1,6 @@
-fruits = ['banana', 'orange', 'peach']
-for x in fruits:
-    print(x)
+rows = 5
+i = 1
+
+while i <= rows:
+    print("*" * i)
+    i += 1
